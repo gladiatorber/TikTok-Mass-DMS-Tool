@@ -1,0 +1,12 @@
+# Option 1: Username and password (may not work due to login restrictions)
+username:password
+
+# Option 2: Session ID (more reliable - get from browser cookies)
+username:password:sessionid
+
+
+To get your sessionid:
+Log in to TikTok in your browser
+Open Developer Tools (F12)
+Go to Application > Cookies
+Copy the "sessionid" value
